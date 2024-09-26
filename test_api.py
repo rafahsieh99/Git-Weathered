@@ -11,7 +11,7 @@ def get_weather_data(location):
     if response.status_code == 200:
         data = response.json()
         print("Datos de la API:")
-        print(data)  # Imprime todos los datos de la API
+        print(data)
         return data
     else:
         print("Error al obtener los datos.")
